@@ -4,4 +4,4 @@ select
     status,
 	AMOUNT/100 as amount
 
-from RAW.STRIPE.PAYMENT
+from {{source('stripe','payment')}}
