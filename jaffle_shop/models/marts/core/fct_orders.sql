@@ -1,4 +1,4 @@
-#adding a comment here
+{# adding a comment here #}
 
 with payments as (
 
